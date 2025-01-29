@@ -7,6 +7,10 @@ module.exports = {
           poppins: ["Poppins", "sans-serif"],
           garamond: ["EB Garamond", "serif"],
         },
+
+        colors:{
+          primaryColor :'rgba(182, 140, 90, 1.00)',
+        },
       },
     },
     plugins: [],
