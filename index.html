@@ -85,14 +85,14 @@
     </header>
     <main>
       <!--Banner section-->
-      <section class="max-w-5xl mx-auto">
-        <div class="w-full h-screen bg-[url('./images/banner.png')] bg-contain bg-no-repeat">
-          <div class="flex flex-col sm:flex-row lg:gap-3 justify-center ">
-            <div class="form-control w-full max-w-xs mx-auto">
+      <!-- <section class="max-w-5xl mx-auto">
+        <div class="flex w-full h-screen bg-[url('./images/banner.png')] bg-contain bg-no-repeat justify-center items-center">
+          <div class="flex flex-col sm:flex-row lg:gap-3 justify-center items-center bg-green-400">
+            <div class="w-full max-w-xs">
               <input
                 type="text"
                 placeholder="Search your service"
-                class="input input-bordered w-full max-w-xs justify-self-center"
+                class="input w-full max-w-xs justify-self-center"
               />
             </div>
             <div class="flex justify-center">
@@ -101,7 +101,28 @@
 
           </div>          
         </div>
+      </section> -->
+
+      <section class="max-w-5xl mx-auto my-1">
+        <div class="w-full h-[60vh] bg-[url('./images/banner.png')] bg-contain bg-no-repeat flex justify-center items-center bg-center">
+          <div class="flex flex-col sm:flex-row lg:gap-3 sm:justify-center sm:items-center bg-green-400 p-4 rounded-lg shadow-md">
+            <div class="w-full max-w-xs">
+              <input
+                type="text"
+                placeholder="Search your service"
+                class="input w-full max-w-xs border-none px-4 py-2 rounded-md"
+              />
+            </div>
+            <div class="flex justify-center sm:mt-0">
+              <button class="px-6 py-2 bg-[#B68C5A] text-white font-bold rounded-md shadow-md hover:bg-blue-600">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
+      
+
     </main>
     <footer></footer>
   </body>
